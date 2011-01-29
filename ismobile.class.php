@@ -41,8 +41,13 @@ class IsMobile {
             // Apple
             'ipad'	 => "iPad",
             'iphone'	 => "Apple iPhone",
-            'ipod'	 => "Apple iPod Touch",            
+            'ipod'	 => "Apple iPod Touch",
 
+            // Samsung Tabs
+            'SPH-P100' => "Samsung SPH-P100 (Galaxy Tab Tablet on Sprint)",
+            'GT-P1000'  => "Samsung Tab",
+
+            // Outros
             'sony'       => "Sony Ericsson",
             'ericsson'	  => "Sony Ericsson",
             'blackberry'		=> "BlackBerry",
