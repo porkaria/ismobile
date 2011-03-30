@@ -1,0 +1,18 @@
+how-to
+
+1 - download the project
+2 - create a php file (e.g: foo.php)
+3 - put this code sample:
+
+require_once "ismobile.class.php";
+
+$ismobi = new IsMobile();
+
+if($ismobi->CheckMobile()) {
+    echo 'Your mobile device is a ' . $ismobi->GetMobileDevice() . '? ';
+}
+else {
+    echo "It isn't a mobile device...";
+}
+
+4 - ..and go drink a beer
